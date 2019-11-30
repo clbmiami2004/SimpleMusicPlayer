@@ -12,10 +12,18 @@ class GenreButtonScreen: UIViewController {
     
     var musicPlayer = MPMusicPlayerController.applicationMusicPlayer
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
     @IBAction func genreButtonTapped(_ sender: UIButton) {
         MPMediaLibrary.requestAuthorization { (status) in
             if status == .authorized {
-                self.playGenre(genre: sender.currentTitle!)
+                DispatchQueue.main.async {
+                    self.playGenre(genre: sender.currentTitle!)
+                }
             }
         }
     }
@@ -50,14 +58,5 @@ class GenreButtonScreen: UIViewController {
         //Play the songs.
         musicPlayer.play()
     }
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
    
 }

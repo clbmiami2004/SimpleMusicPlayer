@@ -25,7 +25,7 @@
                                             <constraint firstAttribute="height" constant="60" id="eIs-6h-PXz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                        <state key="normal" title="Reggae">
+                                        <state key="normal" title="Dance">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -39,7 +39,7 @@
                                             <constraint firstAttribute="height" constant="60" id="dcA-ME-rvm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                        <state key="normal" title="Pop">
+                                        <state key="normal" title="Pop Latino">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -53,7 +53,7 @@
                                             <constraint firstAttribute="height" constant="60" id="bAH-ow-oj4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                        <state key="normal" title="Singer/Songwriter">
+                                        <state key="normal" title="Nacho">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
